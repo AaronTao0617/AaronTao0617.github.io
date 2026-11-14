@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="tag-Aaron 的个人主页，介绍教育背景与研究方向。">
+  <meta name="theme-color" content="#f5f3ee">
+  <title>tag-Aaron · 个人主页</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#top" aria-label="返回首页">tag-Aaron<span>.</span></a>
+    <nav aria-label="主导航">
+      <a href="#about">关于我</a>
+      <a href="#education">教育背景</a>
+      <a href="#research">研究方向</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" id="about">
+      <div class="hero-copy">
+        <p class="eyebrow">HELLO, I AM TAG-AARON</p>
+        <h1>材料工程与<br>先进制造研究者</h1>
+        <p class="intro">四川大学机械工程学院硕士，关注材料、结构与制造工艺之间的联系，同时持续探索机器人与具身智能相关方向。</p>
+        <div class="actions">
+          <a class="button primary" href="mailto:aarontao0617@163.com">联系我</a>
+          <a class="button secondary" href="https://github.com/tag-Aaron" target="_blank" rel="noreferrer">GitHub ↗</a>
+        </div>
+      </div>
+      <aside class="profile-card" aria-label="个人信息摘要">
+        <div class="avatar" aria-hidden="true">A</div>
+        <div>
+          <p class="profile-name">tag-Aaron</p>
+          <p>Materials Engineering</p>
+        </div>
+        <dl>
+          <div><dt>学校</dt><dd>四川大学</dd></div>
+          <div><dt>学院</dt><dd>机械工程学院</dd></div>
+          <div><dt>邮箱</dt><dd><a href="mailto:aarontao0617@163.com">aarontao0617@163.com</a></dd></div>
+        </dl>
+      </aside>
+    </section>
+
+    <section class="section" id="education">
+      <div class="section-heading">
+        <p class="eyebrow">EDUCATION</p>
+        <h2>教育背景</h2>
+      </div>
+      <div class="education-list">
+        <article class="education-item">
+          <span class="number">01</span>
+          <div>
+            <h3>本科 · 四川大学</h3>
+            <p>机械工程学院</p>
+          </div>
+          <p class="major">材料成型及控制工程</p>
+        </article>
+        <article class="education-item">
+          <span class="number">02</span>
+          <div>
+            <h3>硕士 · 四川大学</h3>
+            <p>机械工程学院</p>
+          </div>
+          <p class="major">材料工程</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section research-section" id="research">
+      <div class="section-heading">
+        <p class="eyebrow">RESEARCH INTERESTS</p>
+        <h2>研究方向</h2>
+      </div>
+      <div class="research-domains">
+        <article class="research-domain">
+          <div class="domain-number">01</div>
+          <p class="domain-label">MECHANICS &amp; MATERIALS</p>
+          <h3>机械 · 材料</h3>
+          <p class="domain-intro">围绕先进制造、材料结构与加工工艺开展研究。</p>
+          <div class="topic-list">
+            <div><span>01</span><strong>3D 打印技术</strong></div>
+            <div><span>02</span><strong>复合材料</strong></div>
+            <div><span>03</span><strong>蜂窝材料</strong></div>
+            <div><span>04</span><strong>精密切削加工</strong></div>
+          </div>
+        </article>
+        <article class="research-domain future-domain">
+          <div class="domain-number">02</div>
+          <p class="domain-label">ROBOTICS &amp; EMBODIED AI</p>
+          <h3>机器人 · 具身智能</h3>
+          <p class="domain-intro">关注机器人技术与具身智能的交叉应用，逐步拓展新的研究与实践方向。</p>
+          <div class="embodied-project">
+            <p class="project-kicker">PROJECT 01</p>
+            <h4>基于 X-VLA 的轮式双臂机器人自主操作系统</h4>
+            <div class="project-resources">
+              <a href="assets/x-vla-technical-report.pdf" target="_blank" rel="noreferrer">
+                <span>01</span><strong>技术报告</strong><em>PDF ↗</em>
+              </a>
+            </div>
+            <div class="project-media">
+              <div class="media-heading">
+                <span>02</span>
+                <strong>VR遥操作：抓取指定电池放入指定区域</strong>
+              </div>
+              <video controls preload="metadata" playsinline>
+                <source src="assets/x-vla-vr-teleoperation-01.mp4" type="video/mp4">
+                您的浏览器不支持视频播放。
+              </video>
+              <a class="media-link" href="assets/x-vla-vr-teleoperation-01.mp4" target="_blank" rel="noreferrer">打开原视频 ↗</a>
+            </div>
+            <div class="inference-section">
+              <div class="media-heading inference-heading">
+                <span>03</span>
+                <strong>真机推理</strong>
+              </div>
+              <article class="inference-task">
+                <p>任务一</p>
+                <h5>目标方块抓取与放置</h5>
+                <video controls preload="metadata" playsinline>
+                  <source src="assets/x-vla-inference-task-01.mp4" type="video/mp4">
+                  您的浏览器不支持视频播放。
+                </video>
+                <a class="media-link" href="assets/x-vla-inference-task-01.mp4" target="_blank" rel="noreferrer">打开任务一视频 ↗</a>
+              </article>
+              <article class="inference-task">
+                <p>任务二</p>
+                <h5>彩色方块连续操作</h5>
+                <video controls preload="metadata" playsinline>
+                  <source src="assets/x-vla-inference-task-02.mp4" type="video/mp4">
+                  您的浏览器不支持视频播放。
+                </video>
+                <a class="media-link" href="assets/x-vla-inference-task-02.mp4" target="_blank" rel="noreferrer">打开任务二视频 ↗</a>
+              </article>
+            </div>
+            <p class="project-state"><span></span> 更多项目内容待补充</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact">
+      <div>
+        <p class="eyebrow">CONTACT</p>
+        <h2>欢迎交流与合作</h2>
+      </div>
+      <a href="mailto:aarontao0617@163.com">aarontao0617@163.com <span>↗</span></a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> tag-Aaron</p>
+    <a href="https://github.com/tag-Aaron" target="_blank" rel="noreferrer">GitHub</a>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
